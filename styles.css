@@ -16,6 +16,10 @@ h2 {
     margin: 0.5em 0;
 }
 
+details {
+    cursor: pointer;
+}
+
 header {
     background-color: lightgrey;
     box-shadow: 0.25em 0.25em 0.75em rgba(0,0,0,.35),
@@ -44,7 +48,8 @@ header {
     margin: 0 auto;
 }
 
-section {
+section,
+article {
     padding: 0.5em;
 }
 
